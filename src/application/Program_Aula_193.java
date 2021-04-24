@@ -17,7 +17,7 @@ public class Program_Aula_193 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		SimpleDateFormat sfd = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		SimpleDateFormat sfd = new SimpleDateFormat("dd/MM/yyyy HH:ss");
 		
 		System.out.print("Digite o modelo do Veículo: ");
 		String model = sc.nextLine();
